@@ -1,9 +1,8 @@
-* {
-	margin: 0px;
+* {	margin: 0px;
 	padding: 0px;
 }
 body {
-	background: url(/images/logos/Logo-Small.png);
+	background: url(../images/logos/Logo-Small.png);
 	overflow-x: hidden;
 }
 

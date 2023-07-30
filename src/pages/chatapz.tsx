@@ -1,4 +1,5 @@
-import React from "react";import SlideShowManual from "../scripts/slideShowManula";
+import React from "react";
+import SlideShowManual from "../scripts/slideShowManula";
 import NavBar from "../components/headers/NavBar";
 import Footer from "../components/footers/Footer";
 import "../css/chatapz.css";
@@ -15,11 +16,11 @@ function Chatapz() {
 				slideHeight="515"
 				bgColor="65"
 				slides101={[
-					"/images/chatapz/Chatapz01.png",
-					"/images/chatapz/Chatapz02.png",
-					"/images/chatapz/Chatapz03.png",
-					"/images/chatapz/Chatapz04.png",
-					"/images/chatapz/Chatapz05.png",
+					"../images/chatapz/Chatapz01.png",
+					"../images/chatapz/Chatapz02.png",
+					"../images/chatapz/Chatapz03.png",
+					"../images/chatapz/Chatapz04.png",
+					"../images/chatapz/Chatapz05.png",
 				]}
 			/>
 

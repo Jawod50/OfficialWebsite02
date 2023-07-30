@@ -1,4 +1,5 @@
-import React from "react";import SlideShowManual from "../scripts/slideShowManula";
+import React from "react";
+import SlideShowManual from "../scripts/slideShowManula";
 import NavBar from "../components/headers/NavBar";
 import Footer from "../components/footers/Footer";
 import "../css/chessLive.css";
@@ -15,12 +16,12 @@ function ChessLive() {
 				slideHeight="515"
 				bgColor="65"
 				slides101={[
-					"/images/chessLive/ChessLive01.png",
-					"/images/chessLive/ChessLive02.png",
-					"/images/chessLive/ChessLive03.png",
-					"/images/chessLive/ChessLive04.png",
-					"/images/chessLive/ChessLive05.png",
-					"/images/chessLive/ChessLive06.png",
+					"../images/chessLive/ChessLive01.png",
+					"../images/chessLive/ChessLive02.png",
+					"../images/chessLive/ChessLive03.png",
+					"../images/chessLive/ChessLive04.png",
+					"../images/chessLive/ChessLive05.png",
+					"../images/chessLive/ChessLive06.png",
 				]}
 			/>
 

@@ -1,4 +1,5 @@
-import React from "react";import SlideShowManual from "../scripts/slideShowManula";
+import React from "react";
+import SlideShowManual from "../scripts/slideShowManula";
 import NavBar from "../components/headers/NavBar";
 import Footer from "../components/footers/Footer";
 import "../css/bananaOnlineStore.css";
@@ -15,11 +16,11 @@ function BananaOnlineStore() {
 				slideHeight="520"
 				bgColor="65"
 				slides101={[
-					"/images/bananaOnlineStore/bananaOnlineStore01.png",
-					"/images/bananaOnlineStore/bananaOnlineStore02.png",
-					"/images/bananaOnlineStore/bananaOnlineStore03.png",
-					"/images/bananaOnlineStore/bananaOnlineStore04.png",
-					"/images/bananaOnlineStore/bananaOnlineStore05.png",
+					"../images/bananaOnlineStore/bananaOnlineStore01.png",
+					"../images/bananaOnlineStore/bananaOnlineStore02.png",
+					"../images/bananaOnlineStore/bananaOnlineStore03.png",
+					"../images/bananaOnlineStore/bananaOnlineStore04.png",
+					"../images/bananaOnlineStore/bananaOnlineStore05.png",
 				]}
 			/>
 

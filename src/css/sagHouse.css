@@ -1,8 +1,9 @@
-* {	margin: 0px;
+* {
+	margin: 0px;
 	padding: 0px;
 }
 body {
-	background: url(/images/logos/GameDev-Small.png);
+	background: url(../images/logos/GameDev-Small.png);
 	overflow-x: hidden;
 }
 
@@ -48,41 +49,41 @@ body {
 	grid-area: image01;
 	width: 700px;
 	height: 525px;
-	background: url(/images/sagHouse/sagHouse/SagHouse01-Medium.png);
+	background: url(../images/sagHouse/sagHouse/SagHouse01-Medium.png);
 	animation: slide01 25s infinite;
 	background-color: lightslategray;
 	margin-left: 10px;
 }
 @keyframes slide01 {
 	10% {
-		background: url(/images/sagHouse/sagHouse/SagHouse02-Medium.png);
+		background: url(../images/sagHouse/sagHouse/SagHouse02-Medium.png);
 	}
 	20% {
-		background: url(/images/sagHouse/sagHouse/SagHouse03-Medium.png);
+		background: url(../images/sagHouse/sagHouse/SagHouse03-Medium.png);
 	}
 	30% {
-		background: url(/images/sagHouse/sagHouse/SagHouse04-Medium.png);
+		background: url(../images/sagHouse/sagHouse/SagHouse04-Medium.png);
 	}
 	40% {
-		background: url(/images/sagHouse/sagHouse/SagHouse05-Medium.png);
+		background: url(../images/sagHouse/sagHouse/SagHouse05-Medium.png);
 	}
 	50% {
-		background: url(/images/sagHouse/sagHouse/SagHouse06-Medium.png);
+		background: url(../images/sagHouse/sagHouse/SagHouse06-Medium.png);
 	}
 	60% {
-		background: url(/images/sagHouse/sagHouse/SagHouse07-Medium.png);
+		background: url(../images/sagHouse/sagHouse/SagHouse07-Medium.png);
 	}
 	70% {
-		background: url(/images/sagHouse/sagHouse/SagHouse08-Medium.png);
+		background: url(../images/sagHouse/sagHouse/SagHouse08-Medium.png);
 	}
 	80% {
-		background: url(/images/sagHouse/sagHouse/SagHouse09-Medium.png);
+		background: url(../images/sagHouse/sagHouse/SagHouse09-Medium.png);
 	}
 	90% {
-		background: url(/images/sagHouse/sagHouse/SagHouse10-Medium.png);
+		background: url(../images/sagHouse/sagHouse/SagHouse10-Medium.png);
 	}
 	100% {
-		background: url(/images/sagHouse/sagHouse/SagHouse01-Medium.png);
+		background: url(../images/sagHouse/sagHouse/SagHouse01-Medium.png);
 	}
 }
 /* SlideShow01 */
@@ -119,26 +120,26 @@ body {
 	grid-area: image02;
 	width: 700px;
 	height: 525px;
-	background: url(/images/sagHouse/cupDrop/CupDrop02-Medium.png);
+	background: url(../images/sagHouse/cupDrop/CupDrop02-Medium.png);
 	animation: slide02 12.5s infinite;
 	background-color: lightslategray;
 	margin-left: 10px;
 }
 @keyframes slide02 {
 	20% {
-		background: url(/images/sagHouse/cupDrop/CupDrop03-Medium.png);
+		background: url(../images/sagHouse/cupDrop/CupDrop03-Medium.png);
 	}
 	40% {
-		background: url(/images/sagHouse/cupDrop/CupDrop04-Medium.png);
+		background: url(../images/sagHouse/cupDrop/CupDrop04-Medium.png);
 	}
 	60% {
-		background: url(/images/sagHouse/cupDrop/CupDrop05-Medium.png);
+		background: url(../images/sagHouse/cupDrop/CupDrop05-Medium.png);
 	}
 	80% {
-		background: url(/images/sagHouse/cupDrop/CupDrop01-Medium.png);
+		background: url(../images/sagHouse/cupDrop/CupDrop01-Medium.png);
 	}
 	100% {
-		background: url(/images/sagHouse/cupDrop/CupDrop02-Medium.png);
+		background: url(../images/sagHouse/cupDrop/CupDrop02-Medium.png);
 	}
 }
 /* SlideShow02 */
@@ -175,26 +176,26 @@ body {
 	grid-area: image03;
 	width: 700px;
 	height: 525px;
-	background: url(/images/sagHouse/piper/Piper03-Medium.png);
+	background: url(../images/sagHouse/piper/Piper03-Medium.png);
 	animation: slide03 12.5s infinite;
 	background-color: lightslategray;
 	margin-left: 10px;
 }
 @keyframes slide03 {
 	20% {
-		background: url(/images/sagHouse/piper/Piper04-Medium.png);
+		background: url(../images/sagHouse/piper/Piper04-Medium.png);
 	}
 	40% {
-		background: url(/images/sagHouse/piper/Piper05-Medium.png);
+		background: url(../images/sagHouse/piper/Piper05-Medium.png);
 	}
 	60% {
-		background: url(/images/sagHouse/piper/Piper01-Medium.png);
+		background: url(../images/sagHouse/piper/Piper01-Medium.png);
 	}
 	80% {
-		background: url(/images/sagHouse/piper/Piper02-Medium.png);
+		background: url(../images/sagHouse/piper/Piper02-Medium.png);
 	}
 	100% {
-		background: url(/images/sagHouse/piper/Piper03-Medium.png);
+		background: url(../images/sagHouse/piper/Piper03-Medium.png);
 	}
 }
 /* SlideShow03 */
@@ -231,26 +232,26 @@ body {
 	grid-area: image04;
 	width: 700px;
 	height: 525px;
-	background: url(/images/sagHouse/waterBird/WaterBird04-Medium.png);
+	background: url(../images/sagHouse/waterBird/WaterBird04-Medium.png);
 	animation: slide04 12.5s infinite;
 	background-color: lightslategray;
 	margin-left: 10px;
 }
 @keyframes slide04 {
 	20% {
-		background: url(/images/sagHouse/waterBird/WaterBird05-Medium.png);
+		background: url(../images/sagHouse/waterBird/WaterBird05-Medium.png);
 	}
 	40% {
-		background: url(/images/sagHouse/waterBird/WaterBird01-Medium.png);
+		background: url(../images/sagHouse/waterBird/WaterBird01-Medium.png);
 	}
 	60% {
-		background: url(/images/sagHouse/waterBird/WaterBird02-Medium.png);
+		background: url(../images/sagHouse/waterBird/WaterBird02-Medium.png);
 	}
 	80% {
-		background: url(/images/sagHouse/waterBird/WaterBird03-Medium.png);
+		background: url(../images/sagHouse/waterBird/WaterBird03-Medium.png);
 	}
 	100% {
-		background: url(/images/sagHouse/waterBird/WaterBird04-Medium.png);
+		background: url(../images/sagHouse/waterBird/WaterBird04-Medium.png);
 	}
 }
 /* SlideShow04 */
