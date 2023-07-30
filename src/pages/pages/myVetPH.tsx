@@ -1,6 +1,7 @@
-import React from "react";import SlideShowManual from "./_slideShowManula1";
+import React from "react";
+import SlideShowManual from "./_slideShowManula1";
 import NavBar from "../../components/headers/NavBar";
-import Footer from "./_footer";
+import Footer from "../../components/footers/Footer";
 import "../../css/e-banana.css";
 
 function MyVetPH() {
