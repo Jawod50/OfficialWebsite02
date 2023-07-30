@@ -1,7 +1,12 @@
-import React from "react";import SlideShowManual from "../scripts/slideShowManula";
+import React from "react";
+import SlideShowManual from "../scripts/slideShowManula";
 import NavBar from "../components/headers/NavBar";
 import Footer from "../components/footers/Footer";
 import "../css/e-banana.css";
+
+import iqorian03 from "../../public/images/iqorian/iqorian-03.png";
+import iqorian02 from "../../public/images/iqorian/iqorian-02.png";
+import iqorian01 from "../../public/images/iqorian/iqorian-01.png";
 
 function MyVetPH() {
 	return (
@@ -14,11 +19,7 @@ function MyVetPH() {
 				slideWidth="745"
 				slideHeight="550"
 				bgColor="65"
-				slides101={[
-					"./images/iqorian/iqorian-03.png",
-					"./images/iqorian/iqorian-02.png",
-					"./images/iqorian/iqorian-01.png",
-				]}
+				slides101={[iqorian03, iqorian02, iqorian01]}
 			/>
 
 			<Footer />
