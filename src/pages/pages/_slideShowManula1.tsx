@@ -1,7 +1,8 @@
-import React, { useState } from "react";import Image from "next/image";
+import React, { useState } from "react";
+import Image from "next/image";
 import "./slideShowManula.css";
-const nextIcon = "./images/logos/next.png";
-const previousIcon = "./images/logos/previous.png";
+const nextIcon = "../images/logos/next.png";
+const previousIcon = "../images/logos/previous.png";
 
 interface IProps {
 	title: any;
