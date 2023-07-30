@@ -1,0 +1,155 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.disable-select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* SlideShow */
+.content-container {
+	display: flex;
+	flex-direction: column;
+	margin: 80px auto 150px auto;
+}
+
+.slideshow {
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+	z-index: 3;
+}
+
+.next-container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 50px;
+	height: 70px;
+	background-color: rgba(0, 0, 0, 0.05);
+	transition: 0.5s;
+}
+
+.next-icon {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 30px;
+	height: 30px;
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+.next-container:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.next-container:hover .next-icon {
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.previous-container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 50px;
+	height: 70px;
+	background-color: rgba(0, 0, 0, 0.05);
+	transition: 0.5s;
+}
+
+.previous-icon {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 30px;
+	height: 30px;
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+.previous-container:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.previous-container:hover .previous-icon {
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.slides {
+	display: flex;
+}
+
+.slide {
+	transition: 0.8s;
+}
+
+.slide img {
+	height: 100%;
+	width: 100%;
+}
+
+.slider-option {
+	display: flex;
+	margin: 5px auto;
+}
+
+.slider-bar {
+	width: 5px;
+	height: 5px;
+	border-radius: 100%;
+	border: 2px solid #ffffff;
+	margin: auto 10px;
+}
+
+.slider-bar:hover {
+	cursor: pointer;
+}
+
+.slider-bar1 {
+	background-color: #ffffff;
+}
+/* SlideShow */
+
+/* Details */
+.detail-container {
+	background-color: white;
+	padding: 15px;
+	padding-left: 2px;
+	z-index: 2;
+}
+
+.title {
+	font-family: sans-serif;
+	font-size: 25px;
+	padding-top: 10px;
+}
+
+.description {
+	font-family: sans-serif;
+	text-align: justify;
+	font-size: 20px;
+}
+/* Details */

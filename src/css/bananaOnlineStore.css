@@ -1,0 +1,8 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: url(/images/logos/BusinessApp-Small.png);
+	overflow-x: hidden;
+}

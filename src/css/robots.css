@@ -1,0 +1,149 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: url(/images/logos/Automation-Small.png);
+	overflow-x: hidden;
+}
+/* Slider */
+.content00 h1 {
+	text-align: center;
+	font-size: 75px;
+}
+.content00 p {
+	text-align: justify;
+	font-family: sans-serif;
+	font-size: 30px;
+	/* font-size: 20px; */
+}
+
+/* Robot01 */
+.robot011 {
+	padding: 10px 10px;
+	display: grid;
+	grid-template-areas:
+		"title01 title01"
+		"image01 description01";
+	grid-gap: 10px;
+	background-color: #414141;
+	width: 1080px;
+	margin: 65px auto auto auto;
+}
+
+.title011 {
+	display: grid;
+	grid-area: title01;
+	background-color: rgb(204, 188, 188);
+	/* background-color: #ff677d; */
+	/* margin: 0px 10px; */
+}
+.description011 {
+	display: grid;
+	grid-area: description01;
+	background-color: #fde5ce;
+	/* margin-right: 10px; */
+	padding: 50px;
+}
+.photo011 {
+	display: grid;
+	grid-area: image01;
+	width: 700px;
+	height: 540px;
+}
+/* Robot01 */
+
+/* Robot02 */
+.robot022 {
+	padding: 10px;
+	display: grid;
+	grid-template-areas:
+		"title02 title02"
+		"image02 description02";
+	grid-gap: 10px;
+	background-color: #414141;
+	width: 1080px;
+	margin: 100px auto auto auto;
+}
+.title022 {
+	display: grid;
+	grid-area: title02;
+	background-color: rgb(204, 188, 188);
+}
+.description022 {
+	display: grid;
+	grid-area: description02;
+	background-color: #fde5ce;
+	padding: 50px;
+}
+.photo022 {
+	display: grid;
+	grid-area: image02;
+	width: 700px;
+	height: 540px;
+}
+
+/* Robot02 */
+
+/* Robot03 */
+.robot033 {
+	padding: 10px;
+	display: grid;
+	grid-template-areas:
+		"title03 title03"
+		"image03 description03";
+	grid-gap: 10px;
+	background-color: #414141;
+	width: 1080px;
+	margin: 100px auto auto auto;
+}
+.title033 {
+	display: grid;
+	grid-area: title03;
+	background-color: rgb(204, 188, 188);
+}
+.description033 {
+	display: grid;
+	grid-area: description03;
+	background-color: #fde5ce;
+	padding: 50px;
+}
+.photo033 {
+	display: grid;
+	grid-area: image03;
+	width: 700px;
+	height: 540px;
+}
+/* Robot03 */
+
+/* Robot04 */
+.robot044 {
+	padding: 10px;
+	display: grid;
+	grid-template-areas:
+		"title04 title04"
+		"image04 description04";
+	grid-gap: 10px;
+	background-color: #414141;
+	width: 1080px;
+	margin: 100px auto;
+}
+.title044 {
+	display: grid;
+	grid-area: title04;
+	background-color: rgb(204, 188, 188);
+}
+.description044 {
+	display: grid;
+	grid-area: description04;
+	background-color: #fde5ce;
+	padding: 50px;
+}
+.photo044 {
+	display: grid;
+	grid-area: image04;
+	width: 700px;
+	height: 540px;
+}
+/* Robot04 */
+/* Slider */
