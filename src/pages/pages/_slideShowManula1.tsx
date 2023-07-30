@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Image from "next/image";
+import React, { useState } from "react";import Image from "next/image";
 import "./slideShowManula.css";
 const nextIcon = "./images/logos/next.png";
 const previousIcon = "./images/logos/previous.png";
@@ -51,7 +50,7 @@ function App(props: IProps) {
 								: { marginLeft: `${-(currentSlide - 1) * (100 / props.slides101 ? props.slides101.length : 1)}%` }
 						}
 					>
-						<Image alt="slide" src={props.slides101[0]} />
+						<Image alt="slide" src={props.slides101 ? props.slides101[0] : ""} />
 					</div>
 					{props.slides101.map((item: any, index: number) => {
 						if (index == 0) return;
