@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Image from "next/image";
+import React, { useState } from "react";import Image from "next/image";
 import "./slideShowManula.css";
 const nextIcon = "../images/logos/next.png";
 const previousIcon = "../images/logos/previous.png";
@@ -10,7 +9,7 @@ interface IProps {
 	slideWidth: any;
 	slideHeight: any;
 	bgColor: any;
-	slides101: any;
+	slides101: String[];
 }
 
 function App(props: IProps) {
