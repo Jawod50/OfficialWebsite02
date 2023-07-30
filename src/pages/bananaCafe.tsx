@@ -1,7 +1,14 @@
-import React from "react";import SlideShowManual from "../scripts/slideShowManula";
+import React from "react";
+import SlideShowManual from "../scripts/slideShowManula";
 import NavBar from "../components/headers/NavBar";
 import Footer from "../components/footers/Footer";
 import "../css/bananaCafe.css";
+
+import BananaCafe01Medium from "../../public/images/bananaCafe/BananaCafe01-Medium.png";
+import BananaCafe02Medium from "../../public/images/bananaCafe/BananaCafe02-Medium.png";
+import BananaCafe03Medium from "../../public/images/bananaCafe/BananaCafe03-Medium.png";
+import BananaCafe04Medium from "../../public/images/bananaCafe/BananaCafe04-Medium.png";
+import BananaCafe05Medium from "../../public/images/bananaCafe/BananaCafe05-Medium.png";
 
 function BananaCafe() {
 	return (
@@ -14,13 +21,7 @@ function BananaCafe() {
 				slideWidth="1000"
 				slideHeight="562"
 				bgColor="50"
-				slides101={[
-					"./images/bananaCafe/BananaCafe01-Medium.png",
-					"./images/bananaCafe/BananaCafe02-Medium.png",
-					"./images/bananaCafe/BananaCafe03-Medium.png",
-					"./images/bananaCafe/BananaCafe04-Medium.png",
-					"./images/bananaCafe/BananaCafe05-Medium.png",
-				]}
+				slides101={[BananaCafe01Medium, BananaCafe02Medium, BananaCafe03Medium, BananaCafe04Medium, BananaCafe05Medium]}
 			/>
 
 			<Footer />

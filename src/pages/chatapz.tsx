@@ -1,7 +1,14 @@
-import React from "react";import SlideShowManual from "../scripts/slideShowManula";
+import React from "react";
+import SlideShowManual from "../scripts/slideShowManula";
 import NavBar from "../components/headers/NavBar";
 import Footer from "../components/footers/Footer";
 import "../css/chatapz.css";
+
+import Chatapz01 from "../../public/images/chatapz/Chatapz01.png";
+import Chatapz02 from "../../public/images/chatapz/Chatapz02.png";
+import Chatapz03 from "../../public/images/chatapz/Chatapz03.png";
+import Chatapz04 from "../../public/images/chatapz/Chatapz04.png";
+import Chatapz05 from "../../public/images/chatapz/Chatapz05.png";
 
 function Chatapz() {
 	return (
@@ -14,13 +21,7 @@ function Chatapz() {
 				slideWidth="1000"
 				slideHeight="515"
 				bgColor="65"
-				slides101={[
-					"./images/chatapz/Chatapz01.png",
-					"./images/chatapz/Chatapz02.png",
-					"./images/chatapz/Chatapz03.png",
-					"./images/chatapz/Chatapz04.png",
-					"./images/chatapz/Chatapz05.png",
-				]}
+				slides101={[Chatapz01, Chatapz02, Chatapz03, Chatapz04, Chatapz05]}
 			/>
 
 			<Footer />

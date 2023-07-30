@@ -1,7 +1,15 @@
-import React from "react";import SlideShowManual from "../scripts/slideShowManula";
+import React from "react";
+import SlideShowManual from "../scripts/slideShowManula";
 import NavBar from "../components/headers/NavBar";
 import Footer from "../components/footers/Footer";
 import "../css/chessLive.css";
+
+import ChessLive01 from "../../public/images/chessLive/ChessLive01.png";
+import ChessLive02 from "../../public/images/chessLive/ChessLive02.png";
+import ChessLive03 from "../../public/images/chessLive/ChessLive03.png";
+import ChessLive04 from "../../public/images/chessLive/ChessLive04.png";
+import ChessLive05 from "../../public/images/chessLive/ChessLive05.png";
+import ChessLive06 from "../../public/images/chessLive/ChessLive06.png";
 
 function ChessLive() {
 	return (
@@ -14,14 +22,7 @@ function ChessLive() {
 				slideWidth="1000"
 				slideHeight="515"
 				bgColor="65"
-				slides101={[
-					"./images/chessLive/ChessLive01.png",
-					"./images/chessLive/ChessLive02.png",
-					"./images/chessLive/ChessLive03.png",
-					"./images/chessLive/ChessLive04.png",
-					"./images/chessLive/ChessLive05.png",
-					"./images/chessLive/ChessLive06.png",
-				]}
+				slides101={[ChessLive01, ChessLive02, ChessLive03, ChessLive04, ChessLive05, ChessLive06]}
 			/>
 
 			<Footer />
