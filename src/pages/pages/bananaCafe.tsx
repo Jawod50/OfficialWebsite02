@@ -16,11 +16,11 @@ function BananaCafe() {
 				slideHeight="562"
 				bgColor="50"
 				slides101={[
-					"./images/bananaCafe/BananaCafe01-Medium.png",
-					"./images/bananaCafe/BananaCafe02-Medium.png",
-					"./images/bananaCafe/BananaCafe03-Medium.png",
-					"./images/bananaCafe/BananaCafe04-Medium.png",
-					"./images/bananaCafe/BananaCafe05-Medium.png",
+					"../images/bananaCafe/BananaCafe01-Medium.png",
+					"../images/bananaCafe/BananaCafe02-Medium.png",
+					"../images/bananaCafe/BananaCafe03-Medium.png",
+					"../images/bananaCafe/BananaCafe04-Medium.png",
+					"../images/bananaCafe/BananaCafe05-Medium.png",
 				]}
 			/>
 
