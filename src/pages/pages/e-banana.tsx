@@ -1,4 +1,5 @@
-import React from "react";import SlideShowManual from "../../scripts/slideShowManula";
+import React from "react";
+import SlideShowManual from "./_slideShowManula";
 import NavBar from "../../components/headers/NavBar";
 import Footer from "./_footer";
 
