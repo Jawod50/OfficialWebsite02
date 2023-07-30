@@ -1,5 +1,4 @@
-import React from "react";
-import SlideShowManual from "../scripts/slideShowManula";
+import React from "react";import SlideShowManual from "../scripts/slideShowManula";
 import NavBar from "../components/headers/NavBar";
 import Footer from "../components/footers/Footer";
 import "../css/e-banana.css";
@@ -16,9 +15,9 @@ function MyVetPH() {
 				slideHeight="550"
 				bgColor="65"
 				slides101={[
-					"../images/iqorian/iqorian-03.png",
-					"../images/iqorian/iqorian-02.png",
-					"../images/iqorian/iqorian-01.png",
+					"./images/iqorian/iqorian-03.png",
+					"./images/iqorian/iqorian-02.png",
+					"./images/iqorian/iqorian-01.png",
 				]}
 			/>
 

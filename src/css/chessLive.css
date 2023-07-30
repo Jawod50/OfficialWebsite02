@@ -1,8 +1,9 @@
-* {	margin: 0px;
+* {
+	margin: 0px;
 	padding: 0px;
 }
 body {
-	background: url(../images/logos/GameDev-Small.png);
+	background: url(./images/logos/GameDev-Small.png);
 	overflow-x: hidden;
 }
 

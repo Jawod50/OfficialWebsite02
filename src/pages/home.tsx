@@ -1,5 +1,4 @@
-import type { NextPage } from "next";
-import Image from "next/image";
+import type { NextPage } from "next";import Image from "next/image";
 import Link from "next/link";
 
 import NavBar from "../components/headers/NavBar";
@@ -14,7 +13,7 @@ const Home: NextPage = () => {
 			<div className="header">
 				<video id="vid01" src={"/videos/video01.mp4"} autoPlay loop muted></video>
 				<div className="header-content">
-					<Image width={200} height={200} src={"../images/logos/Logo.png"} alt="Logo Photo" />
+					<Image width={200} height={200} src={"./images/logos/Logo.png"} alt="Logo Photo" />
 					<h1>JUDE RUSSEL JAWOD</h1>
 					<h2>SOFTWARE ENGINEER</h2>
 				</div>
@@ -25,13 +24,13 @@ const Home: NextPage = () => {
 			<div id="nav-service"></div>
 			<div id="service">
 				<h2>SERVICES</h2>
-				<Image id="boarder" width={100} height={4} src={"../images/logos/boarder.png"} alt="Boarder Photo" />
+				<Image id="boarder" width={100} height={4} src={"./images/logos/boarder.png"} alt="Boarder Photo" />
 				<div id="service-container">
 					<div id="service-item01">
 						<Image
 							width={200}
 							height={200}
-							src={"../images/logos/Automation-Medium.png"}
+							src={"./images/logos/Automation-Medium.png"}
 							alt="Automation Badge Photo"
 						/>
 					</div>
@@ -39,7 +38,7 @@ const Home: NextPage = () => {
 						<Image
 							width={200}
 							height={200}
-							src={"../images/logos/BusinessApp-Medium.png"}
+							src={"./images/logos/BusinessApp-Medium.png"}
 							alt="Business Application Badge Photo"
 						/>
 					</div>
@@ -47,7 +46,7 @@ const Home: NextPage = () => {
 						<Image
 							width={200}
 							height={200}
-							src={"../images/logos/GameDev-Medium.png"}
+							src={"./images/logos/GameDev-Medium.png"}
 							alt="Game Development Badge Photo"
 						/>
 					</div>
@@ -81,7 +80,7 @@ const Home: NextPage = () => {
 			<div id="nav-work"></div>
 			<div className="works">
 				<h1>MY WORKS</h1>
-				<Image width={100} height={4} src={"../images/logos/boarder.png"} alt="Boarder Photo" id="work-boarder" />
+				<Image width={100} height={4} src={"./images/logos/boarder.png"} alt="Boarder Photo" id="work-boarder" />
 				<p>A collection of project I&apos;ve created over the years</p>
 				<div id="gallery">
 					<div className="photo-01">
@@ -89,14 +88,14 @@ const Home: NextPage = () => {
 							<Image
 								width={500}
 								height={375}
-								src={"../images/robots/robot01-Small.png"}
+								src={"./images/robots/robot01-Small.png"}
 								alt="Fire Fighting Robot Photo"
 							/>
 						</Link>
 					</div>
 					<div className="photo-02">
 						<Link href="robots">
-							<Image width={500} height={375} src={"../images/robots/robot02-Small.png"} alt="Sumo Bot Photo" />
+							<Image width={500} height={375} src={"./images/robots/robot02-Small.png"} alt="Sumo Bot Photo" />
 						</Link>
 					</div>
 					<div className="photo-03">
@@ -104,7 +103,7 @@ const Home: NextPage = () => {
 							<Image
 								width={500}
 								height={375}
-								src={"../images/robots/robot03-Small.png"}
+								src={"./images/robots/robot03-Small.png"}
 								alt="Flying Car (Prototype) Photo"
 							/>
 						</Link>
@@ -115,7 +114,7 @@ const Home: NextPage = () => {
 							<Image
 								width={500}
 								height={375}
-								src={"../images/bananaCube/bananaHunt/BananaHunt05-Small.png"}
+								src={"./images/bananaCube/bananaHunt/BananaHunt05-Small.png"}
 								alt="Banana Hunt Photo"
 							/>
 						</Link>
@@ -125,7 +124,7 @@ const Home: NextPage = () => {
 							<Image
 								width={500}
 								height={375}
-								src={"../images/bananaCube/bananaRun/BananaRun01-Small.png"}
+								src={"./images/bananaCube/bananaRun/BananaRun01-Small.png"}
 								alt="Banana Run Photo"
 							/>
 						</Link>
@@ -135,7 +134,7 @@ const Home: NextPage = () => {
 							<Image
 								width={500}
 								height={375}
-								src={"../images/bananaCube/bananaHuntPro/BananaHuntPro02-Small.png"}
+								src={"./images/bananaCube/bananaHuntPro/BananaHuntPro02-Small.png"}
 								alt="Banana Hunt Pro Photo"
 							/>
 						</Link>
@@ -143,12 +142,7 @@ const Home: NextPage = () => {
 
 					<div className="photo-07">
 						<Link href="sagHouse">
-							<Image
-								width={500}
-								height={375}
-								src={"../images/sagHouse/piper/Piper04-Small.png"}
-								alt="Piper Photo"
-							/>
+							<Image width={500} height={375} src={"./images/sagHouse/piper/Piper04-Small.png"} alt="Piper Photo" />
 						</Link>
 					</div>
 					<div className="photo-08">
@@ -156,7 +150,7 @@ const Home: NextPage = () => {
 							<Image
 								width={500}
 								height={375}
-								src={"../images/sagHouse/cupDrop/CupDrop02-Small.png"}
+								src={"./images/sagHouse/cupDrop/CupDrop02-Small.png"}
 								alt="Cup Drop Photo"
 							/>
 						</Link>
@@ -166,7 +160,7 @@ const Home: NextPage = () => {
 							<Image
 								width={500}
 								height={375}
-								src={"../images/sagHouse/waterBird/WaterBird04-Small.png"}
+								src={"./images/sagHouse/waterBird/WaterBird04-Small.png"}
 								alt="Water Bird Photo"
 							/>
 						</Link>
@@ -177,7 +171,7 @@ const Home: NextPage = () => {
 							<Image
 								width={500}
 								height={375}
-								src={"../images/bananaOnlineStore/bananaOnlineStore02-Small.png"}
+								src={"./images/bananaOnlineStore/bananaOnlineStore02-Small.png"}
 								alt="SagHouse Photo"
 							/>
 						</Link>
@@ -187,7 +181,7 @@ const Home: NextPage = () => {
 							<Image
 								width={500}
 								height={375}
-								src={"../images/sagHouse/sagHouse/SagHouse01-Small.png"}
+								src={"./images/sagHouse/sagHouse/SagHouse01-Small.png"}
 								alt="E-BANANA Photo"
 							/>
 						</Link>
@@ -197,7 +191,7 @@ const Home: NextPage = () => {
 							<Image
 								width={500}
 								height={375}
-								src={"../images/e-banana/EBanana01-Small.png"}
+								src={"./images/e-banana/EBanana01-Small.png"}
 								alt="Water Bird Photo"
 							/>
 						</Link>
@@ -205,7 +199,7 @@ const Home: NextPage = () => {
 
 					<div className="photo-13">
 						<Link href="chatapz">
-							<Image width={500} height={375} src={"../images/chatapz/Chatapz02-Small.png"} alt="Chatapz Photo" />
+							<Image width={500} height={375} src={"./images/chatapz/Chatapz02-Small.png"} alt="Chatapz Photo" />
 						</Link>
 					</div>
 
@@ -214,7 +208,7 @@ const Home: NextPage = () => {
 							<Image
 								width={500}
 								height={375}
-								src={"../images/bananaCafe/BananaCafe02-Small.png"}
+								src={"./images/bananaCafe/BananaCafe02-Small.png"}
 								alt="Banana Cafe Photo"
 							/>
 						</Link>
@@ -224,7 +218,7 @@ const Home: NextPage = () => {
 							<Image
 								width={500}
 								height={375}
-								src={"../images/chessLive/ChessLive01-Small.png"}
+								src={"./images/chessLive/ChessLive01-Small.png"}
 								alt="ChessLive Photo"
 							/>
 						</Link>
@@ -232,12 +226,12 @@ const Home: NextPage = () => {
 
 					<div className="photo-16">
 						<Link href="myVetPH">
-							<Image width={500} height={375} src={"../images/myVetPH/my-vet-ph-01-small.png"} alt="Piper Photo" />
+							<Image width={500} height={375} src={"./images/myVetPH/my-vet-ph-01-small.png"} alt="Piper Photo" />
 						</Link>
 					</div>
 					<div className="photo-17">
 						<Link href="memorya">
-							<Image width={500} height={375} src={"../images/memorya/memorya-01-small.png"} alt="Cup Drop Photo" />
+							<Image width={500} height={375} src={"./images/memorya/memorya-01-small.png"} alt="Cup Drop Photo" />
 						</Link>
 					</div>
 					<div className="photo-18">
@@ -245,17 +239,17 @@ const Home: NextPage = () => {
 							<Image
 								width={500}
 								height={375}
-								src={"../images/iqorian/iqorian-01-small.png"}
+								src={"./images/iqorian/iqorian-01-small.png"}
 								alt="Banana Online Store Photo"
 							/>
 						</Link>
 					</div>
 
 					<div className="empty00">
-						<Image width={500} height={385} src={"../images/logos/empty.png"} alt="Empty" />
+						<Image width={500} height={385} src={"./images/logos/empty.png"} alt="Empty" />
 					</div>
 					<div className="empty01">
-						<Image width={500} height={385} src={"../images/logos/empty.png"} alt="Empty" />
+						<Image width={500} height={385} src={"./images/logos/empty.png"} alt="Empty" />
 					</div>
 				</div>
 			</div>
@@ -266,7 +260,7 @@ const Home: NextPage = () => {
 			<div className="about">
 				<div className="about-container">
 					<h1>ABOUT ME</h1>
-					<Image width={100} height={4} src={"../images/logos/boarderblack.png"} alt="Boarder Photo" />
+					<Image width={100} height={4} src={"./images/logos/boarderblack.png"} alt="Boarder Photo" />
 					<p>
 						Aspiring to be in the field of technological innovation that would enhance and develop technical skill for
 						the benefit of the institution and the community, striving to bring out the best to have a remarkable
@@ -281,7 +275,7 @@ const Home: NextPage = () => {
 				<video src={"/videos/video02.mp4"} autoPlay loop muted></video>
 				<div className="find-content">
 					<h1>FIND</h1>
-					<Image width={100} height={4} src={"../images/logos/boarder.png"} alt="Boarder Photo" />
+					<Image width={100} height={4} src={"./images/logos/boarder.png"} alt="Boarder Photo" />
 					<div className="find-grid-container">
 						<div></div>
 						<div className="information">

@@ -1,5 +1,4 @@
-import React from "react";
-import SlideShowManual from "../scripts/slideShowManula";
+import React from "react";import SlideShowManual from "../scripts/slideShowManula";
 import NavBar from "../components/headers/NavBar";
 import Footer from "../components/footers/Footer";
 import "../css/e-banana.css";
@@ -16,16 +15,16 @@ function MyVetPH() {
 				slideHeight="562"
 				bgColor="65"
 				slides101={[
-					"../images/myVetPH/my-vet-ph-01.png",
-					"../images/myVetPH/my-vet-ph-02.png",
-					"../images/myVetPH/my-vet-ph-03.png",
-					"../images/myVetPH/my-vet-ph-04.png",
-					"../images/myVetPH/my-vet-ph-05.png",
-					"../images/myVetPH/my-vet-ph-06.png",
-					"../images/myVetPH/my-vet-ph-07.png",
-					"../images/myVetPH/my-vet-ph-08.png",
-					"../images/myVetPH/my-vet-ph-09.png",
-					"../images/myVetPH/my-vet-ph-10.png",
+					"./images/myVetPH/my-vet-ph-01.png",
+					"./images/myVetPH/my-vet-ph-02.png",
+					"./images/myVetPH/my-vet-ph-03.png",
+					"./images/myVetPH/my-vet-ph-04.png",
+					"./images/myVetPH/my-vet-ph-05.png",
+					"./images/myVetPH/my-vet-ph-06.png",
+					"./images/myVetPH/my-vet-ph-07.png",
+					"./images/myVetPH/my-vet-ph-08.png",
+					"./images/myVetPH/my-vet-ph-09.png",
+					"./images/myVetPH/my-vet-ph-10.png",
 				]}
 			/>
 
@@ -36,16 +35,16 @@ function MyVetPH() {
 				slideHeight="562"
 				bgColor="65"
 				slides101={[
-					"../images/myVetPH/my-vet-ph-old-01.png",
-					"../images/myVetPH/my-vet-ph-old-02.png",
-					"../images/myVetPH/my-vet-ph-old-03.png",
-					"../images/myVetPH/my-vet-ph-old-04.png",
-					"../images/myVetPH/my-vet-ph-old-05.png",
-					"../images/myVetPH/my-vet-ph-old-06.png",
-					"../images/myVetPH/my-vet-ph-old-07.png",
-					"../images/myVetPH/my-vet-ph-old-08.png",
-					"../images/myVetPH/my-vet-ph-old-09.png",
-					"../images/myVetPH/my-vet-ph-old-10.png",
+					"./images/myVetPH/my-vet-ph-old-01.png",
+					"./images/myVetPH/my-vet-ph-old-02.png",
+					"./images/myVetPH/my-vet-ph-old-03.png",
+					"./images/myVetPH/my-vet-ph-old-04.png",
+					"./images/myVetPH/my-vet-ph-old-05.png",
+					"./images/myVetPH/my-vet-ph-old-06.png",
+					"./images/myVetPH/my-vet-ph-old-07.png",
+					"./images/myVetPH/my-vet-ph-old-08.png",
+					"./images/myVetPH/my-vet-ph-old-09.png",
+					"./images/myVetPH/my-vet-ph-old-10.png",
 				]}
 			/>
 
