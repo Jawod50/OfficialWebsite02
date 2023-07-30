@@ -14,7 +14,7 @@ interface IProps {
 }
 
 function App(props: IProps) {
-	const [currentSlide, setCurrentSlide] = useState(props.slides101 ? props.slides101.length : "");
+	const [currentSlide, setCurrentSlide] = useState(props?.slides101 ? props?.slides101?.length : "");
 
 	return (
 		<div>
