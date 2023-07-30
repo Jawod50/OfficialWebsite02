@@ -1,5 +1,4 @@
-import React from "react";
-import SlideShowManual from "../scripts/slideShowManula";
+import React from "react";import SlideShowManual from "../scripts/slideShowManula";
 import NavBar from "../components/headers/NavBar";
 import Footer from "../components/footers/Footer";
 import "../css/e-banana.css";

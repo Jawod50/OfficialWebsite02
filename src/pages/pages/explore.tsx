@@ -1,10 +1,8 @@
-import type { NextPage } from "next";
-const Explore: NextPage = () => {
-	return (
-		<div>
-			<h1>Explore page 101</h1>
-		</div>
-	);
-};
+import React from "react";
+import Page from "../explore";
 
-export default Explore;
+function PageRender() {
+	return <Page />;
+}
+
+export default PageRender;

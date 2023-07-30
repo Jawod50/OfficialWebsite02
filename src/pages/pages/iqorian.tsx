@@ -1,8 +1,8 @@
 import React from "react";
-import Iqorian from "../iqorian";
+import Page from "../iqorian";
 
-function MyVetPH() {
-	return <Iqorian />;
+function PageRender() {
+	return <Page />;
 }
 
-export default MyVetPH;
+export default PageRender;
