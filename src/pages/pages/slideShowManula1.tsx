@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Image from "next/image";
+import React, { useState } from "react";import Image from "next/image";
 import "./slideShowManula.css";
 const nextIcon = "../images/logos/next.png";
 const previousIcon = "../images/logos/previous.png";
@@ -29,7 +28,7 @@ function App(props: IProps) {
 				<div
 					className="next-container"
 					onClick={() => {
-						if (props.slides101.length > currentSlide) setCurrentSlide(currentSlide + 1);
+						if (props.slides101.length ? props.slides101.length : 0 > currentSlide) setCurrentSlide(currentSlide + 1);
 					}}
 				>
 					<Image className="next-icon disable-select" alt="next" src={"../images/logos/next.png"} />
@@ -42,13 +41,17 @@ function App(props: IProps) {
 				>
 					<Image className="previous-icon disable-select" alt="previous" src={"../images/logos/previous.png"} />
 				</div>
-				<div className="slides" style={{ width: `${100 * props.slides101.length}%` }}>
+				<div className="slides" style={{ width: `${100 * props.slides101.length ? props.slides101.length : 0}%` }}>
 					<div
 						className="slide"
 						style={
 							currentSlide == 1
-								? { width: `${100 / props.slides101.length}%` }
-								: { marginLeft: `${-(currentSlide - 1) * (100 / props.slides101.length)}%` }
+								? { width: `${100 / props.slides101.length ? props.slides101.length : 0}%` }
+								: {
+										marginLeft: `${
+											-(currentSlide - 1) * (100 / props.slides101.length ? props.slides101.length : 0)
+										}%`,
+								  }
 						}
 					>
 						<Image alt="slide" src={props.slides101[0]} />
@@ -56,7 +59,11 @@ function App(props: IProps) {
 					{props.slides101.map((item: any, index: number) => {
 						if (index == 0) return;
 						return (
-							<div className="slide" style={{ width: `${100 / props.slides101.length}%` }} key={index}>
+							<div
+								className="slide"
+								style={{ width: `${100 / props.slides101.length ? props.slides101.length : 0}%` }}
+								key={index}
+							>
 								<Image alt="slide" src={item} />
 							</div>
 						);
