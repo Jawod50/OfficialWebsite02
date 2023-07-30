@@ -2,7 +2,7 @@
 	padding: 0px;
 }
 body {
-	background: url(/images/logos/GameDev-Small.png);
+	background: url(../../public/images/logos/GameDev-Small.png);
 	overflow-x: hidden;
 }
 

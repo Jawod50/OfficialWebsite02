@@ -3,6 +3,6 @@
 	padding: 0px;
 }
 body {
-	background: url(/images/logos/BusinessApp-Small.png);
+	background: url(../../public/images/logos/BusinessApp-Small.png);
 	overflow-x: hidden;
 }

@@ -152,7 +152,7 @@ body {
 
 /* Gap0 */
 .gap-background {
-	background: url(/images/logos/Logo-Small.png);
+	background: url(../../public/images/logos/Logo-Small.png);
 	background-attachment: fixed;
 	height: 70vh;
 }

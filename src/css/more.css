@@ -2,7 +2,7 @@
 	padding: 0px;
 }
 body {
-	background: url(/images/logos/Logo-Small.png);
+	background: url(../../public/images/logos/Logo-Small.png);
 	overflow-x: hidden;
 }
 

@@ -1,4 +1,5 @@
-import type { NextPage } from "next";import Image from "next/image";
+import type { NextPage } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 import NavBar from "../components/headers/NavBar";
@@ -11,7 +12,7 @@ const Home: NextPage = () => {
 			<NavBar />
 
 			<div className="header">
-				<video id="vid01" src={"/videos/video01.mp4"} autoPlay loop muted></video>
+				<video id="vid01" src={"./videos/video01.mp4"} autoPlay loop muted></video>
 				<div className="header-content">
 					<Image width={200} height={200} src={"./images/logos/Logo.png"} alt="Logo Photo" />
 					<h1>JUDE RUSSEL JAWOD</h1>
@@ -272,7 +273,7 @@ const Home: NextPage = () => {
 			<div id="nav-find"></div>
 
 			<div className="find">
-				<video src={"/videos/video02.mp4"} autoPlay loop muted></video>
+				<video src={"./videos/video02.mp4"} autoPlay loop muted></video>
 				<div className="find-content">
 					<h1>FIND</h1>
 					<Image width={100} height={4} src={"./images/logos/boarder.png"} alt="Boarder Photo" />

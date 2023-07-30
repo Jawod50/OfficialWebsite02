@@ -2,6 +2,6 @@
 	padding: 0px;
 }
 body {
-	background: url(/images/logos/Automation-Small.png);
+	background: url(../../public/images/logos/Automation-Small.png);
 	overflow-x: hidden;
 }

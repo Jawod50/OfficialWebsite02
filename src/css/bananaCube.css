@@ -2,7 +2,7 @@
 	padding: 0px;
 }
 body {
-	background: url(/images/logos/GameDev-Small.png);
+	background: url(../../public/images/logos/GameDev-Small.png);
 	overflow-x: hidden;
 }
 
@@ -49,26 +49,26 @@ body {
 	grid-area: image01;
 	width: 700px;
 	height: 560px;
-	background: url(/images/bananaCube/bananaCube/BananaCube01-Medium.png);
+	background: url(../../public/images/bananaCube/bananaCube/BananaCube01-Medium.png);
 	animation: slide01 12.5s infinite;
 	background-color: lightslategray;
 	margin-left: 10px;
 }
 @keyframes slide01 {
 	20% {
-		background: url(/images/bananaCube/bananaCube/BananaCube02-Medium.png);
+		background: url(../../public/images/bananaCube/bananaCube/BananaCube02-Medium.png);
 	}
 	40% {
-		background: url(/images/bananaCube/bananaCube/BananaCube03-Medium.png);
+		background: url(../../public/images/bananaCube/bananaCube/BananaCube03-Medium.png);
 	}
 	60% {
-		background: url(/images/bananaCube/bananaCube/BananaCube04-Medium.png);
+		background: url(../../public/images/bananaCube/bananaCube/BananaCube04-Medium.png);
 	}
 	80% {
-		background: url(/images/bananaCube/bananaCube/BananaCube05-Medium.png);
+		background: url(../../public/images/bananaCube/bananaCube/BananaCube05-Medium.png);
 	}
 	100% {
-		background: url(/images/bananaCube/bananaCube/BananaCube01-Medium.png);
+		background: url(../../public/images/bananaCube/bananaCube/BananaCube01-Medium.png);
 	}
 }
 /* SlideShow01 */
@@ -106,41 +106,41 @@ body {
 	grid-area: image02;
 	width: 700px;
 	height: 560px;
-	background: url(/images/bananaCube/bananaHunt/BananaHunt01-Medium.png);
+	background: url(../../public/images/bananaCube/bananaHunt/BananaHunt01-Medium.png);
 	animation: slide02 25s infinite;
 	background-color: #414141;
 	margin-left: 10px;
 }
 @keyframes slide02 {
 	10% {
-		background: url(/images/bananaCube/bananaHunt/BananaHunt02-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHunt/BananaHunt02-Medium.png);
 	}
 	20% {
-		background: url(/images/bananaCube/bananaHunt/BananaHunt03-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHunt/BananaHunt03-Medium.png);
 	}
 	30% {
-		background: url(/images/bananaCube/bananaHunt/BananaHunt04-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHunt/BananaHunt04-Medium.png);
 	}
 	40% {
-		background: url(/images/bananaCube/bananaHunt/BananaHunt05-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHunt/BananaHunt05-Medium.png);
 	}
 	50% {
-		background: url(/images/bananaCube/bananaHunt/BananaHunt06-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHunt/BananaHunt06-Medium.png);
 	}
 	60% {
-		background: url(/images/bananaCube/bananaHunt/BananaHunt07-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHunt/BananaHunt07-Medium.png);
 	}
 	70% {
-		background: url(/images/bananaCube/bananaHunt/BananaHunt08-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHunt/BananaHunt08-Medium.png);
 	}
 	80% {
-		background: url(/images/bananaCube/bananaHunt/BananaHunt09-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHunt/BananaHunt09-Medium.png);
 	}
 	90% {
-		background: url(/images/bananaCube/bananaHunt/BananaHunt10-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHunt/BananaHunt10-Medium.png);
 	}
 	100% {
-		background: url(/images/bananaCube/bananaHunt/BananaHunt01-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHunt/BananaHunt01-Medium.png);
 	}
 }
 /* SlideShow02 */
@@ -177,26 +177,26 @@ body {
 	grid-area: image03;
 	width: 700px;
 	height: 560px;
-	background: url(/images/bananaCube/bananaHuntPro/BananaHuntPro01-Medium.png);
+	background: url(../../public/images/bananaCube/bananaHuntPro/BananaHuntPro01-Medium.png);
 	animation: slide03 12.5s infinite;
 	background-color: lightslategray;
 	margin-left: 10px;
 }
 @keyframes slide03 {
 	20% {
-		background: url(/images/bananaCube/bananaHuntPro/BananaHuntPro02-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHuntPro/BananaHuntPro02-Medium.png);
 	}
 	40% {
-		background: url(/images/bananaCube/bananaHuntPro/BananaHuntPro03-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHuntPro/BananaHuntPro03-Medium.png);
 	}
 	60% {
-		background: url(/images/bananaCube/bananaHuntPro/BananaHuntPro04-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHuntPro/BananaHuntPro04-Medium.png);
 	}
 	80% {
-		background: url(/images/bananaCube/bananaHuntPro/BananaHuntPro05-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHuntPro/BananaHuntPro05-Medium.png);
 	}
 	100% {
-		background: url(/images/bananaCube/bananaHuntPro/BananaHuntPro01-Medium.png);
+		background: url(../../public/images/bananaCube/bananaHuntPro/BananaHuntPro01-Medium.png);
 	}
 }
 /* SlideShow03 */
@@ -234,26 +234,26 @@ body {
 	grid-area: image04;
 	width: 700px;
 	height: 560px;
-	background: url(/images/bananaCube/bananaRun/BananaRun01-Medium.png);
+	background: url(../../public/images/bananaCube/bananaRun/BananaRun01-Medium.png);
 	animation: slide04 12.5s infinite;
 	background-color: lightslategray;
 	margin-left: 10px;
 }
 @keyframes slide04 {
 	20% {
-		background: url(/images/bananaCube/bananaRun/BananaRun02-Medium.png);
+		background: url(../../public/images/bananaCube/bananaRun/BananaRun02-Medium.png);
 	}
 	40% {
-		background: url(/images/bananaCube/bananaRun/BananaRun03-Medium.png);
+		background: url(../../public/images/bananaCube/bananaRun/BananaRun03-Medium.png);
 	}
 	60% {
-		background: url(/images/bananaCube/bananaRun/BananaRun04-Medium.png);
+		background: url(../../public/images/bananaCube/bananaRun/BananaRun04-Medium.png);
 	}
 	80% {
-		background: url(/images/bananaCube/bananaRun/BananaRun05-Medium.png);
+		background: url(../../public/images/bananaCube/bananaRun/BananaRun05-Medium.png);
 	}
 	100% {
-		background: url(/images/bananaCube/bananaRun/BananaRun01-Medium.png);
+		background: url(../../public/images/bananaCube/bananaRun/BananaRun01-Medium.png);
 	}
 }
 /* SlideShow04 */
