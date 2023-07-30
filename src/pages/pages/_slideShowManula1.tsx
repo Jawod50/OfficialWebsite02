@@ -1,4 +1,5 @@
-import React, { useState } from "react";import Image from "next/image";
+import React, { useState } from "react";
+import Image from "next/image";
 import "./slideShowManula.css";
 const nextIcon = "./images/logos/next.png";
 const previousIcon = "./images/logos/previous.png";
@@ -68,14 +69,17 @@ function App(props: IProps) {
 			</div>
 
 			<div className="slider-option">
-				{props.slides101.map((item: any, index: number) => (
-					<label
-						className="slider-bar"
-						style={currentSlide - 1 == index ? { backgroundColor: "#ffffff" } : { backgroundColor: "transparent" }}
-						key={index}
-						onClick={() => setCurrentSlide(index + 1)}
-					></label>
-				))}
+				{props.slides101 &&
+					props.slides101.map((item: any, index: number) => (
+						<label
+							className="slider-bar"
+							style={
+								currentSlide - 1 == index ? { backgroundColor: "#ffffff" } : { backgroundColor: "transparent" }
+							}
+							key={index}
+							onClick={() => setCurrentSlide(index + 1)}
+						></label>
+					))}
 			</div>
 
 			<div className="detail-container">
