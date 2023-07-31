@@ -6,6 +6,32 @@ import NavBar from "../components/headers/NavBar";
 import Footer from "../components/footers/Footer";
 import "../css/home.css";
 
+import Logo from "../../public/images/logos/Logo.png";
+import AutomationMedium from "../../public/images/logos/Automation-Medium.png";
+import BusinessAppMedium from "../../public/images/logos/BusinessApp-Medium.png";
+import GameDevMedium from "../../public/images/logos/GameDev-Medium.png";
+import robot01Small from "../../public/images/robots/robot01-Small.png";
+import robot02Small from "../../public/images/robots/robot02-Small.png";
+import robot03Small from "../../public/images/robots/robot03-Small.png";
+import BananaHunt05Small from "../../public/images/bananaCube/bananaHunt/BananaHunt05-Small.png";
+import BananaRun01Small from "../../public/images/bananaCube/bananaRun/BananaRun01-Small.png";
+import BananaHuntPro02Small from "../../public/images/bananaCube/bananaHuntPro/BananaHuntPro02-Small.png";
+import Piper04Small from "../../public/images/sagHouse/piper/Piper04-Small.png";
+import CupDrop02Small from "../../public/images/sagHouse/cupDrop/CupDrop02-Small.png";
+import WaterBird04Small from "../../public/images/sagHouse/waterBird/WaterBird04-Small.png";
+import bananaOnlineStore02Small from "../../public/images/bananaOnlineStore/bananaOnlineStore02-Small.png";
+import SagHouse01Small from "../../public/images/sagHouse/sagHouse/SagHouse01-Small.png";
+import EBanana01Small from "../../public/images/e-banana/EBanana01-Small.png";
+import Chatapz02Small from "../../public/images/chatapz/Chatapz02-Small.png";
+import BananaCafe02Small from "../../public/images/bananaCafe/BananaCafe02-Small.png";
+import ChessLive01Small from "../../public/images/chessLive/ChessLive01-Small.png";
+import myvetph01small from "../../public/images/myVetPH/my-vet-ph-01-small.png";
+import memorya01small from "../../public/images/memorya/memorya-01-small.png";
+import iqorian01small from "../../public/images/iqorian/iqorian-01-small.png";
+import empty from "../../public/images/logos/empty.png";
+import boarderblack from "../../public/images/logos/boarderblack.png";
+import boarder from "../../public/images/logos/boarder.png";
+
 const Home: NextPage = () => {
 	return (
 		<div>
@@ -14,7 +40,7 @@ const Home: NextPage = () => {
 			<div className="header">
 				<video id="vid01" src={"./videos/video01.mp4"} autoPlay loop muted></video>
 				<div className="header-content">
-					<Image width={200} height={200} src={"./images/logos/Logo.png"} alt="Logo Photo" />
+					<Image width={200} height={200} src={Logo} alt="Logo Photo" />
 					<h1>JUDE RUSSEL JAWOD</h1>
 					<h2>SOFTWARE ENGINEER</h2>
 				</div>
@@ -25,31 +51,16 @@ const Home: NextPage = () => {
 			<div id="nav-service"></div>
 			<div id="service">
 				<h2>SERVICES</h2>
-				<Image id="boarder" width={100} height={4} src={"./images/logos/boarder.png"} alt="Boarder Photo" />
+				<Image id="boarder" width={100} height={4} src={boarder} alt="Boarder Photo" />
 				<div id="service-container">
 					<div id="service-item01">
-						<Image
-							width={200}
-							height={200}
-							src={"./images/logos/Automation-Medium.png"}
-							alt="Automation Badge Photo"
-						/>
+						<Image width={200} height={200} src={AutomationMedium} alt="Automation Badge Photo" />
 					</div>
 					<div id="service-item02">
-						<Image
-							width={200}
-							height={200}
-							src={"./images/logos/BusinessApp-Medium.png"}
-							alt="Business Application Badge Photo"
-						/>
+						<Image width={200} height={200} src={BusinessAppMedium} alt="Business Application Badge Photo" />
 					</div>
 					<div id="service-item03">
-						<Image
-							width={200}
-							height={200}
-							src={"./images/logos/GameDev-Medium.png"}
-							alt="Game Development Badge Photo"
-						/>
+						<Image width={200} height={200} src={GameDevMedium} alt="Game Development Badge Photo" />
 					</div>
 					<div id="service-item04">
 						<h1>AUTOMATION</h1>
@@ -81,176 +92,111 @@ const Home: NextPage = () => {
 			<div id="nav-work"></div>
 			<div className="works">
 				<h1>MY WORKS</h1>
-				<Image width={100} height={4} src={"./images/logos/boarder.png"} alt="Boarder Photo" id="work-boarder" />
+				<Image width={100} height={4} src={boarder} alt="Boarder Photo" id="work-boarder" />
 				<p>A collection of project I&apos;ve created over the years</p>
 				<div id="gallery">
 					<div className="photo-01">
 						<Link href="robots">
-							<Image
-								width={500}
-								height={375}
-								src={"./images/robots/robot01-Small.png"}
-								alt="Fire Fighting Robot Photo"
-							/>
+							<Image width={500} height={375} src={robot01Small} alt="Fire Fighting Robot Photo" />
 						</Link>
 					</div>
 					<div className="photo-02">
 						<Link href="robots">
-							<Image width={500} height={375} src={"./images/robots/robot02-Small.png"} alt="Sumo Bot Photo" />
+							<Image width={500} height={375} src={robot02Small} alt="Sumo Bot Photo" />
 						</Link>
 					</div>
 					<div className="photo-03">
 						<Link href="robots">
-							<Image
-								width={500}
-								height={375}
-								src={"./images/robots/robot03-Small.png"}
-								alt="Flying Car (Prototype) Photo"
-							/>
+							<Image width={500} height={375} src={robot03Small} alt="Flying Car (Prototype) Photo" />
 						</Link>
 					</div>
 
 					<div className="photo-04">
 						<Link href="bananaCube">
-							<Image
-								width={500}
-								height={375}
-								src={"./images/bananaCube/bananaHunt/BananaHunt05-Small.png"}
-								alt="Banana Hunt Photo"
-							/>
+							<Image width={500} height={375} src={BananaHunt05Small} alt="Banana Hunt Photo" />
 						</Link>
 					</div>
 					<div className="photo-05">
 						<Link href="bananaCube">
-							<Image
-								width={500}
-								height={375}
-								src={"./images/bananaCube/bananaRun/BananaRun01-Small.png"}
-								alt="Banana Run Photo"
-							/>
+							<Image width={500} height={375} src={BananaRun01Small} alt="Banana Run Photo" />
 						</Link>
 					</div>
 					<div className="photo-06">
 						<Link href="bananaCube">
-							<Image
-								width={500}
-								height={375}
-								src={"./images/bananaCube/bananaHuntPro/BananaHuntPro02-Small.png"}
-								alt="Banana Hunt Pro Photo"
-							/>
+							<Image width={500} height={375} src={BananaHuntPro02Small} alt="Banana Hunt Pro Photo" />
 						</Link>
 					</div>
 
 					<div className="photo-07">
 						<Link href="sagHouse">
-							<Image width={500} height={375} src={"./images/sagHouse/piper/Piper04-Small.png"} alt="Piper Photo" />
+							<Image width={500} height={375} src={Piper04Small} alt="Piper Photo" />
 						</Link>
 					</div>
 					<div className="photo-08">
 						<Link href="sagHouse">
-							<Image
-								width={500}
-								height={375}
-								src={"./images/sagHouse/cupDrop/CupDrop02-Small.png"}
-								alt="Cup Drop Photo"
-							/>
+							<Image width={500} height={375} src={CupDrop02Small} alt="Cup Drop Photo" />
 						</Link>
 					</div>
 					<div className="photo-09">
 						<Link href="sagHouse">
-							<Image
-								width={500}
-								height={375}
-								src={"./images/sagHouse/waterBird/WaterBird04-Small.png"}
-								alt="Water Bird Photo"
-							/>
+							<Image width={500} height={375} src={WaterBird04Small} alt="Water Bird Photo" />
 						</Link>
 					</div>
 
 					<div className="photo-10">
 						<Link href="bananaOnlineStore">
-							<Image
-								width={500}
-								height={375}
-								src={"./images/bananaOnlineStore/bananaOnlineStore02-Small.png"}
-								alt="SagHouse Photo"
-							/>
+							<Image width={500} height={375} src={bananaOnlineStore02Small} alt="SagHouse Photo" />
 						</Link>
 					</div>
 					<div className="photo-11">
 						<Link href="sagHouse">
-							<Image
-								width={500}
-								height={375}
-								src={"./images/sagHouse/sagHouse/SagHouse01-Small.png"}
-								alt="E-BANANA Photo"
-							/>
+							<Image width={500} height={375} src={SagHouse01Small} alt="E-BANANA Photo" />
 						</Link>
 					</div>
 					<div className="photo-12">
 						<Link href="e-banana">
-							<Image
-								width={500}
-								height={375}
-								src={"./images/e-banana/EBanana01-Small.png"}
-								alt="Water Bird Photo"
-							/>
+							<Image width={500} height={375} src={EBanana01Small} alt="Water Bird Photo" />
 						</Link>
 					</div>
 
 					<div className="photo-13">
 						<Link href="chatapz">
-							<Image width={500} height={375} src={"./images/chatapz/Chatapz02-Small.png"} alt="Chatapz Photo" />
+							<Image width={500} height={375} src={Chatapz02Small} alt="Chatapz Photo" />
 						</Link>
 					</div>
 
 					<div className="photo-14">
 						<Link href="bananaCafe">
-							<Image
-								width={500}
-								height={375}
-								src={"./images/bananaCafe/BananaCafe02-Small.png"}
-								alt="Banana Cafe Photo"
-							/>
+							<Image width={500} height={375} src={BananaCafe02Small} alt="Banana Cafe Photo" />
 						</Link>
 					</div>
 					<div className="photo-15">
 						<Link href="chessLive">
-							<Image
-								width={500}
-								height={375}
-								src={"./images/chessLive/ChessLive01-Small.png"}
-								alt="ChessLive Photo"
-							/>
+							<Image width={500} height={375} src={ChessLive01Small} alt="ChessLive Photo" />
 						</Link>
 					</div>
 
 					<div className="photo-16">
 						<Link href="myVetPH">
-							<Image width={500} height={375} src={"./images/myVetPH/my-vet-ph-01-small.png"} alt="Piper Photo" />
+							<Image width={500} height={375} src={myvetph01small} alt="Piper Photo" />
 						</Link>
 					</div>
 					<div className="photo-17">
 						<Link href="memorya">
-							<Image width={500} height={375} src={"./images/memorya/memorya-01-small.png"} alt="Cup Drop Photo" />
+							<Image width={500} height={375} src={memorya01small} alt="Cup Drop Photo" />
 						</Link>
 					</div>
 					<div className="photo-18">
 						<Link href="iqorian">
-							<Image
-								width={500}
-								height={375}
-								src={"./images/iqorian/iqorian-01-small.png"}
-								alt="Banana Online Store Photo"
-							/>
+							<Image width={500} height={375} src={iqorian01small} alt="Banana Online Store Photo" />
 						</Link>
 					</div>
 
 					<div className="empty00">
-						<Image width={500} height={385} src={"./images/logos/empty.png"} alt="Empty" />
+						<Image width={500} height={385} src={empty} alt="Empty" />
 					</div>
 					<div className="empty01">
-						<Image width={500} height={385} src={"./images/logos/empty.png"} alt="Empty" />
+						<Image width={500} height={385} src={empty} alt="Empty" />
 					</div>
 				</div>
 			</div>
@@ -261,7 +207,7 @@ const Home: NextPage = () => {
 			<div className="about">
 				<div className="about-container">
 					<h1>ABOUT ME</h1>
-					<Image width={100} height={4} src={"./images/logos/boarderblack.png"} alt="Boarder Photo" />
+					<Image width={100} height={4} src={boarderblack} alt="Boarder Photo" />
 					<p>
 						Aspiring to be in the field of technological innovation that would enhance and develop technical skill for
 						the benefit of the institution and the community, striving to bring out the best to have a remarkable
@@ -276,7 +222,7 @@ const Home: NextPage = () => {
 				<video src={"./videos/video02.mp4"} autoPlay loop muted></video>
 				<div className="find-content">
 					<h1>FIND</h1>
-					<Image width={100} height={4} src={"./images/logos/boarder.png"} alt="Boarder Photo" />
+					<Image width={100} height={4} src={boarder} alt="Boarder Photo" />
 					<div className="find-grid-container">
 						<div></div>
 						<div className="information">
